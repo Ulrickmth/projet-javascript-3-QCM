@@ -1,0 +1,57 @@
+html, body{
+    padding: 0%;
+    margin: 0%;
+    background-color: orange;
+    text-decoration: underline white ;
+}
+
+/*Titre*/
+#Titre{
+    font-size: 10vh;
+    color: White;
+}
+
+#Themes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/*All Bouton */
+#BtnFoot, #BtnRocketLeague, #BtnPokemon, #BtnAnime{
+    width: 20vw;
+    height: 15vh;
+    cursor: grab;
+    border-radius: 10%;
+    color: white;
+    font-size: 3vh;
+    margin: 2%;
+    
+    
+}
+
+#BtnFoot{
+    background-image: url(../PageAcceuil/2183_santiago-bernabeu-stadium.jpg);
+    background-size: 100%;
+    font-weight: bold;
+    
+}
+
+#BtnRocketLeague{
+    background-image: url(../PageAcceuil/rocketleague.webp);
+    background-size: 100%;
+    font-weight: bold;
+}
+
+#BtnPokemon{
+    background-image: url(../PageAcceuil/SI_Pokemon.jpg);
+    background-size: 100%;
+    font-weight: bold;
+}
+
+#BtnAnime{
+    background-image: url(../PageAcceuil/animeallperso.jpg);
+    background-size: 100%;
+    font-weight: bold;
+}

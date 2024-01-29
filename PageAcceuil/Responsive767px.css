@@ -1,0 +1,7 @@
+@media screen and (max-width: 767px){
+    #BtnFoot, #BtnRocketLeague, #BtnPokemon, #BtnAnime{
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 10vh;
+    }
+}

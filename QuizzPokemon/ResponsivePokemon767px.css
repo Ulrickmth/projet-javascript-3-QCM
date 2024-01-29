@@ -1,0 +1,8 @@
+@media screen and (max-width: 767px){
+    #BtnAcceuil{
+        width: 10vw;
+    }
+    #BtnRpsQst{
+        height: 80vh;
+    }
+}

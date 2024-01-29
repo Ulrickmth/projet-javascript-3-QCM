@@ -1,0 +1,74 @@
+html, body{
+    padding: 0%;
+    margin: 0%;
+    background-image: url('../QuizzPokemon/allpokemon.webp');
+    background-size: 100% 140%;
+    
+}
+
+/*All bouton*/
+#Questions{
+    display: flex;
+    justify-content: center;
+    font-size: 5vh;
+    text-align: center;
+    color: black;
+
+}
+
+#BtnRpsQst{
+    border: 2px solid black;
+    width: 65vw;
+    height: 70vh;
+    position: relative;
+    left: 15%;
+    border: 2px solid black;
+    backdrop-filter: blur(5px);
+
+}
+
+#Qst1et2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    position: relative;
+    top: 20%;
+    
+}
+
+#Qst3et4{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    position: relative;
+    top: 40%;
+}
+
+#Rps1, #Rps2, #Rps3, #Rps4{
+    background-color: orange;
+    width: 20vw;
+    height: 15vh;
+    cursor: grab;
+    border-radius: 10%;
+    color: white;
+    font-size: 3vh;
+}
+
+#BtnAcceuil{
+    background-color: orange;
+    width: 5vw;
+    height: 5vh;
+    border-radius: 10%;
+    position: relative;
+    top: 10%;
+    cursor: grab;
+}
+
+/*Score*/
+#Score{
+    position: relative;
+    top: 10%;
+    font-size: 3vh;
+    color: black;
+}
+
